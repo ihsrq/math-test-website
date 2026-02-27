@@ -106,7 +106,7 @@ class MathTest {
     }
     
     showZoomLink() {
-        const zoomLink = "https://zoom.us/j/1234567890"; // Replace with your actual Zoom link
+        const zoomLink = "https://us05web.zoom.us/j/3262290369?pwd=a0xaMll2enVXUWRHMStPeDF6ZkFaUT09";
         
         this.startScreen.classList.add('hidden');
         this.questionScreen.classList.remove('hidden');
