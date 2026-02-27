@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test - Welcome Ayan Khan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="welcome-section">
+            <h1 class="welcome-text">Welcome Ayan Khan</h1>
+            <div class="center-name">Imran</div>
+        </header>
+        
+        <main class="test-section">
+            <div id="start-screen" class="screen">
+                <h2>Math Test</h2>
+                <p>Test your mathematical skills!</p>
+                <button id="start-btn" class="btn">Start Test</button>
+            </div>
+            
+            <div id="question-screen" class="screen hidden">
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div class="question-info">
+                    <span id="question-number">Question 1 of 10</span>
+                    <span id="timer">Time: 0s</span>
+                </div>
+                <div class="question-container">
+                    <h3 id="question-text"></h3>
+                    <div id="options" class="options"></div>
+                </div>
+                <button id="next-btn" class="btn hidden">Next Question</button>
+            </div>
+            
+            <div id="result-screen" class="screen hidden">
+                <h2>Test Complete!</h2>
+                <div class="result-container">
+                    <div class="score-display">
+                        <span id="final-score"></span>
+                    </div>
+                    <div class="result-details">
+                        <p>Total Questions: <span id="total-questions"></span></p>
+                        <p>Correct Answers: <span id="correct-answers"></span></p>
+                        <p>Time Taken: <span id="total-time"></span></p>
+                    </div>
+                    <button id="restart-btn" class="btn">Try Again</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
